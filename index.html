@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mon site personnel</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style/slyle.css" rel="stylesheet">
+</head>
+<body>
+    <img src="images/photoBag.jpg" style="position:fixed;" class="img-fluid" alt="...">
+    <!-- bare de navigation -->
+    <header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!-- mon nom -->
+            <div class="tm-site-header">
+                <img src="images/photocv.jpg" alt="photocv">           
+                <h3 class="text-center">Mady Mades CAMARA</h3>
+                <em>Developpeur Web et Mobile</em>
+            </div>
+            <!-- Ongles navigation -->
+            <nav class="tm-nav" id="tm-nav">            
+                <ul>
+                    <li class="tm-nav-item active"><a href="index.html" class="tm-nav-link">
+                        <i class="fas fa-home"></i>
+                        ACCUEIL
+                    </a></li>
+                    <li class="tm-nav-item"><a href="apropos.html" class="tm-nav-link">
+                        <i class="fas fa-user-tie"></i>
+                        PROFILE
+                    </a></li>
+                    <li class="tm-nav-item"><a href="formation.html" class="tm-nav-link">
+                        <i class="fas fa-graduation-cap"></i>
+                        FORMATIONS
+                    </a></li>
+                    <li class="tm-nav-item"><a href="experience.html" class="tm-nav-link">
+                        <i class="fas fa-stamp"></i>
+                        COMPETENCES
+                    </a></li>
+                    <li class="tm-nav-item"><a href="experience.html" class="tm-nav-link">
+                        <i class="fas fa-users"></i>
+                        EXPERIENCES
+                    </a></li>
+                    <li class="tm-nav-item"><a href="reference.html" class="tm-nav-link">
+                        <i class="fas fa-user-friends"></i>
+                        RÉFÉRENCES
+                    </a></li>
+                    <li class="tm-nav-item"><a href="contact.html" class="tm-nav-link">
+                        <i class="far fa-comments"></i>
+                        CONTACTEZ MOI
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- le corp -->
+    <div class="text-center photofont">
+        <!-- <img src="images/photoBag.jpg" style="position:absolute;" class="img-fluid" alt="..."> -->
+        <div class="container contenu">
+            <div class="container text-center">
+                <div class="contenu2">
+                    <div class="col-md-12">
+                        <div class="col-md-12 text-justify" style="position: relative;">
+                            <h3 class="site-title">Salut je m'appelle Mady Mades CAMARA</h3>
+                            <h4 class="site-title">Je suis Développeur Web et Mobile</h4>
+                        </div>
+                        <div class="row">
+                            <div class="tm-prev-next-wrapper" style="position: relative;">
+                                <a href="contact.html" class="mb-2 tm-btn tm-btn-primary contact_bt tm-mr-20">Contactez Moi</a>
+                                <a href="#" class="mb-2 tm-btn tm-btn-primary monCv">Voici Mon CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- le script -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+</body>
+</html>

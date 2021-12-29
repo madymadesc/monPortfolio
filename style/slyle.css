@@ -252,9 +252,6 @@ ul {
     font-size: 20px;
     color: #090e36;
 }
-address:hover i.fa-map-marker-alt{color: #c4302b;}
-.adress a:hover i.fa-phone{color: #000000;}
-.adress a:hover i.fa-at{color: #c4302b;}
 .adress a{
     text-decoration: none;
     color: #090e36;
@@ -386,4 +383,15 @@ a{
 }
 .navbar-toggler{
     color: #090e36;
+}
+
+.contact-moi{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    margin:20px;
+    height: 200px;
+}
+
+.contact-moi img{
+    width: 100%;
 }

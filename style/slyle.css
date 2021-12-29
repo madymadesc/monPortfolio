@@ -2,7 +2,7 @@
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    margin: 10px 80px;
+    margin: 0 80px;
 }
 .tm-header {
     background-color: #090e36;
@@ -148,7 +148,7 @@ ul {
         position: fixed;
         left: 0;
         top: 0;
-        color: #ffffff;
+        color: #090e36;
         border: solid;
         padding: 10px 15px;
         transition: all 0.3s ease;
@@ -307,21 +307,6 @@ h4{
 }
 /* Formation fin */
 /* Expérience début */
-/* .expe{
-    background-image: url(../images/images.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 600px;
-    background-size: cover;
-}
-.expert{
-    height: 600px;
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 100px 20px;
-    text-align: left;
-    margin: 0 auto;
-} */
-
 .expert{
     background-color: rgba(255, 255, 255, 0.6);
     padding: 10px;
@@ -386,7 +371,7 @@ a{
 .bar-json{width: 85%;}
 .bar-js{width: 40%;}
 .bar-maquettage{width: 80%;}
-
+/* page d'accueil */
 .bagdru{
     background-image: url(../images/bag22.jpg);
     background-repeat: no-repeat;
@@ -398,4 +383,7 @@ a{
     height: 400px;
     padding: 160px 20px;
     text-align: left;
+}
+.navbar-toggler{
+    color: #090e36;
 }

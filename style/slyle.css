@@ -386,3 +386,10 @@ a{
 .bar-json{width: 85%;}
 .bar-js{width: 40%;}
 .bar-maquettage{width: 80%;}
+
+.bagdru{
+    background-image: url(../images/bag22.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}

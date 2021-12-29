@@ -393,3 +393,9 @@ a{
     background-position: center;
     height: 600px;
 }
+
+.home-contenu{
+    height: 400px;
+    padding: 160px 20px;
+    text-align: left;
+}

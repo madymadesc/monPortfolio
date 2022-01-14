@@ -395,3 +395,17 @@ a{
 .contact-moi img{
     width: 100%;
 }
+/* style script */
+
+.typing span
+{
+    font-family: 'Clicker Script' , cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+
+.typing
+{
+    color: #090e36;
+}
